@@ -1,0 +1,40 @@
+/* * {
+    border: 1px dashed red;
+} */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 64px;
+    margin: 0px;
+
+    background-image: url(images/bliss.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: black;
+    /* border: 1px solid white;
+    outline: 16px solid black; */
+    
+    box-sizing: border-box;
+    padding: 64px;
+    width: 800px;
+}
+
+.portrait-image {
+    width: 250px;
+    border: 1px solid white;
+    padding: 16px;
+}
